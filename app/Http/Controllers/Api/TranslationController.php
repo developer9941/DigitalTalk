@@ -30,7 +30,7 @@ class TranslationController extends Controller
      */
     public function index()
     {
-        return response()->json(Translation::with('tags')->paginate(50), 200);
+        return response()->json(Translation::with('tags')->simplePaginate(50), 200);
     }
 
     /**
