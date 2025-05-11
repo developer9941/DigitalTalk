@@ -69,7 +69,7 @@ class TranslationController extends Controller
             });
             $translation->tags()->sync($tagIds);
         }
-
+        Cache::flush();
         return response()->json($translation->load('tags'), 201);
     }
 
