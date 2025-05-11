@@ -16,11 +16,10 @@ Token-based authentication (Laravel Sanctum)
 
 OpenAPI/Swagger documentation
 
-Seed 100k+ records for scalability testing
 
-Fast response: < 200ms (standard), < 500ms (export)
 
 Installation
+
 Clone this repo
 
 Run:
